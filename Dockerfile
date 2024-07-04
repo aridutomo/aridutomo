@@ -5,7 +5,7 @@ FROM nginx:alpine
 COPY . /usr/share/nginx/html
 
 # Expose port 80 to allow traffic
-EXPOSE 9000
+EXPOSE 9001
 
 # Use the default NGINX startup command
 CMD ["nginx", "-g", "daemon off;"]
